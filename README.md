@@ -1,5 +1,4 @@
-Report example can be found in results folder and has .html resolution
-
+Report example:
 
 <html lang="en" dir="ltr">
 <head>
