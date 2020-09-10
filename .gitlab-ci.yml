@@ -1,0 +1,15 @@
+image: node:10-alpine
+
+stages:
+  - Performance
+  
+Performance:
+  stage: Performance
+  only:
+    variables:
+      - $pscript
+  script:
+    - echo "performance script =$pscript"
+    - cd /opt/e2e-betbook/ && RESOLUTION=$resolution ENV=$env RETRIES=$retries BRAND=$brand npm run $pscript
+  tags:
+    - selenoid

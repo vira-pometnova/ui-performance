@@ -1,0 +1,50 @@
+{
+  "name": "performance-automation",
+  "version": "0.0.1",
+  "description": "Performance tests",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix --max-warnings 0 --ext .js,.jsx e2e",
+    "format": "prettier --write \"*/**/*.{js,jsx}\"",
+    "performance-test": "npx mocha spec/test.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vira-pometnova/ui-performance"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "moment": "^2.24.0",
+    "sync-request": "^6.1.0",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "@babel/traverse": "^7.9.5",
+    "@babel/types": "^7.9.5",
+    "puppeteer": "5.2.1",
+    "lighthouse": "^6.1.1",
+    "util": "^0.12.3",
+    "chrome-launcher": "^0.13.4",
+    "create-html": "^4.1.0",
+    "mathjs": "^7.1.0",
+    "mustache": "^4.0.1"
+  },
+  "devDependencies": {
+    "chromedriver": "^80.0.2",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-loader": "2.1.2",
+    "eslint-plugin-import": "2.18.0",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-react": "7.14.2",
+    "husky": "2.4.1",
+    "newman": "4.5.5",
+    "prettier": "1.18.2",
+    "prettier-stylelint": "0.4.2",
+    "stylelint-config-standard": "18.3.0"
+  }
+}

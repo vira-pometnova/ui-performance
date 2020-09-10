@@ -1,0 +1,44 @@
+{
+  "extends": ["airbnb", "plugin:prettier/recommended", "prettier/react"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "no-plusplus": "off",
+    "func-names": "off",
+    "func-style": "off",
+    "react/button-has-type": "off",
+    "import/no-named-as-default": "off",
+    "global-require": "off",
+    "import/prefer-default-export": "off",
+    "react/no-danger": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "no-shadow": "warn",
+    "no-debugger": "warn",
+    "no-console": "warn",
+    "no-unused-vars": "error",
+    "prettier/prettier": "warn",
+    "jsx-a11y/heading-has-content": "warn",
+    "jsx-a11y/label-has-for": "warn",
+    "jsx-a11y/no-static-element-interactions": "warn",
+    "arrow-parens": ["warn", "always"],
+    "spaced-comment": "warn",
+    "max-len": ["warn", { "code": 80, "ignoreStrings": true }],
+    "import/first": "warn",
+    "curly": ["error", "all"],
+    "no-unused-expressions": ["error", { "allowShortCircuit": true }],
+    "class-methods-use-this": 0
+  },
+  "globals": {
+    "browser": true,
+    "$": true,
+    "$$": true,
+    "describe": true,
+    "it": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "before": true
+  }
+}
