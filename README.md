@@ -178,5 +178,6 @@ Report example can be found in results folder and has .html resolution
         <td>6.604</td>
     </tr>
 </table>
+<img src="results/1598956580145.jpg"><img src="results/1598956603495.jpg"><img src="results/1598956625783.jpg"><img src="results/1598956649529.jpg"><img src="results/1598956671726.jpg">
 </body>
 </html>
